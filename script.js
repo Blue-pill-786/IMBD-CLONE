@@ -1,7 +1,4 @@
-// const apiBaseUrl= `"http://www.omdbapi.com/?apikey=${apiKey}&"`;
-// const apiKey = "751b9a63";
 
-// const imageBaseUrl=`"http://img.omdbapi.com/?apikey=${apiKey}&"`;
 
 const apiBaseUrl ="https://api.themoviedb.org/3";
 const apiKey = "2820b9899ffd7cccc2d4c6d6bedfdd7c";
@@ -53,25 +50,6 @@ function displayMovies(movies){
 // Define an array to store the favorite movies
 let favorites = [];
 
-
-  
-
-// function addToFavorites(movieId) {
-//     // Check if the movie is already in favorites
-//     const existingMovie = favorites.find(favMovie => favMovie.id === movieId);
-  
-//     if (!existingMovie) {
-//       const movie = {
-//         id: movieId,
-//         title: movieId.title
-//       };
-//       favorites.push(movie);
-//       console.log(`Added movie with ID ${movieId} to favorites.`);
-//       displayFavorites();
-//     } else {
-//       console.log(`Movie with ID ${movieId} is already in favorites.`);
-//     }
-//   }
 
 
   function displayFavorites() {
